@@ -127,6 +127,17 @@ margin-bottom: 10px;
   text-align: center;
 }
 
+.locations span{
+  text-align: center;
+  position: absolute;
+  top: 1620px;
+  left: 500px;
+  margin-bottom: 15px;
+  background: transparent;
+  color: Seashell;
+  background-size: cover;
+}
+
 .contact{
   width: 1200px;
   height: 200px;
