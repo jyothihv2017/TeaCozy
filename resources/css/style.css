@@ -1,0 +1,142 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+  *{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.logo{
+  margin-left: 10px;
+}
+
+
+header{
+  position: fixed;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid Seashell;
+  z-index: 1;
+}
+
+nav {
+  display: inline-block;
+  align-items: center;
+  padding-left: 570px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.imageContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+  height: 2300px;
+}
+
+.mission{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+}
+
+h2{
+  position: relative;
+  top: 250px;
+  padding: 10px;
+  left: -10px;
+}
+
+h4{
+  position: relative;
+  top: 220px;
+  padding: 10px;
+  left: -10px;
+}
+
+.tea{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 700px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.tea h2{
+  text-align: center;
+  width: 1000px;
+  position: relative;
+  top: 60px;
+}
+
+.tea h4{
+  text-align: center;
+  width: 1000px;
+  position: relative;
+  top: 25px;
+}
+
+.teaChoice1{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1000px;
+
+}
+
+.teaChoice2{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 1000px;
+}
+
+.imageMargin{
+margin-bottom: 10px;
+}
+
+.locations{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+}
+
+.address{
+  display: inline-block;
+  position: relative;
+  top: 100px;
+  left: 60px;
+  margin: 0 20px;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.contact{
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+}
+
+.contact h2{
+  position: relative;
+  top: 10px;
+}
+
+.footer span{
+  text-align: left;
+  margin-left: 20px;
+}
