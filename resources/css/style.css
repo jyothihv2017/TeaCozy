@@ -37,7 +37,7 @@ header{
   position: fixed;
   display: flex;
   height: 69px;
-  width: 1300px;
+  width: 100%;
 	background-color: black;
   border-bottom: 1px solid Seashell;
   z-index: 1;
