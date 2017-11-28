@@ -200,11 +200,17 @@ figcaption{
 	align-items: center;
 }
 
+.footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100px;
+}
 
 .footer span{
   text-align: left;
   margin-left: 20px;
 	padding 22px 0;
-	width: 1300;
+	width: 100%;
 	height: auto;
 }
