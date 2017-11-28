@@ -173,7 +173,8 @@ figcaption{
 .locations span{
   position: absolute;
   top: 1465px;
-  left: 600px;
+  left: 50%;
+	text-align: center;
 	margin: auto;
   background: transparent;
   color: Seashell;
