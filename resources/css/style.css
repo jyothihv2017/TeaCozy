@@ -72,8 +72,10 @@ nav a {
 	background-color: black;
 	justify-content: center;
 	align-items: center;
+	margin-top: 71px;
 	margin: auto;
 }
+
 .mission{
   display: flex;
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
